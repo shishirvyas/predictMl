@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());  
   
 // Connect to MongoDB (replace with your URI)  
-mongoose.connect('mongodb://localhost:27017/dropoutDB', {  
+mongoose.connect('mongodb+srv://recursivekindnessadmin:Shishir#901@predictmongo.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000/dropoutDB', {  
   useNewUrlParser: true,  
   useUnifiedTopology: true,  
 });  
